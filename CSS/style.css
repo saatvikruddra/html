@@ -1,0 +1,89 @@
+<style type="text/css">
+            #first {
+                width:200px;
+                height:200px;
+                background:#000;
+                color:#fff;
+                font-size:20px;
+                float:left;
+            }
+            #second {
+                width:200px;
+                height:200px;
+                background:#f80;
+                color:#fff;
+                font-size:20px;
+                float:left;
+                margin-left:20px;
+            }
+            #third {
+                width:200px;
+                height:200px;
+                background:#000;
+                color:#fff;
+                font-size:20px;
+                float:left;
+                margin-left: 20px;
+            }
+            #fourth {
+                width:200px;
+                height:200px;
+                background:#fff;
+                color:#fff;
+                font-size:20px;
+                float:left;
+                margin-left:20px; 
+            }
+            #fifth {
+                width:200px;
+                height:200px;
+                background:#000;
+                color:#fff;
+                font-size:20px;
+                float:left;
+                
+                margin-top:20px;
+            }
+            #sixth {
+                width:200px;
+                height:200px;
+                background:#f80;
+                color:#fff;
+                font-size:20px;
+                float: left;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+            #seventh {
+                width:200px;
+                height:200px;
+                background:#fff;
+                color:#fff;
+                font-size:20px;
+                float:left;
+                margin-left:20px;
+                margin-top:20px;
+                
+            }
+            #eighth {
+                width:200px;
+                height:200px;
+                background:#fff;
+                color:#fff;
+                font-size:20px;
+                float:left;
+                margin-left:20px;
+                margin-top:20px;
+                
+            }
+            #ninth {
+                width:200px;
+                height:200px;
+                background:#f80;
+                color:#fff;
+                font-size:20px;
+                float:left;
+                margin-top:20px;
+                
+            }
+        </style>

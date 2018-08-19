@@ -1,0 +1,31 @@
+.webimation{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px dashed black;
+    animation:moveBox 5s ease-out infinite;
+    /*functionName Totalanimationtime ease-inEase-out LoopOrNot*/
+    animation-delay:2s;
+}
+
+@keyframes moveBox{
+    /*keyframes is a keywords used to create variation on
+    different timing or screenspace on webpage*/
+    0%{
+        margin-left:0%;
+        /*starting point*/
+        trasnform:rotate(0deg);
+
+    }
+    50%{
+       margin-left: 80%;
+       /*this moves the circle*/
+        transform:rotate(360deg);
+
+    }
+    100%{
+        transform:  rotate(0deg);
+        margin-left:0%;
+        /*ending point*/
+    }
+}

@@ -1,0 +1,29 @@
+ul {
+    list-style-type:none;
+    margin:15px;
+    padding:20px;
+    float:left;
+}
+ul li {
+    width:100px;
+    padding: 10px 0px;
+    background:rgb(88, 88, 84);
+    color:rgb(214, 51, 51);
+    text-align: left;
+    float:left;
+    transition:all 0.5s ease-out 0.5s;
+}
+ul li :hover{
+        background:#f00;
+        color:#ffb200;
+        cursor: pointer;
+        padding:20px 0px;
+
+}
+ul li ul{
+    display:none;
+    transition:all 0.5 ease-out 0.5; 
+}
+ul li:hover > ul{
+        display:block;
+}

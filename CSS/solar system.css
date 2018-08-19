@@ -1,0 +1,66 @@
+.whole{
+    width:100%;
+    height:100%;
+    position: fixed;
+    background: black;
+}
+.whole div{
+    position: absolute;
+}
+.sun{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 15%;
+    display: block;
+    border-radius: 50%;
+    background: radial-gradient(circle at 100px 100px, orange, yellow, #000);
+}
+@keyframes rotate{
+    0%{
+        transform: rotateX(0deg);
+    }
+    25%{
+        transform: rotateY();
+        margin-left:margin-left+200px;
+        margin-top:margin-top+200px;
+    }
+    75%{
+
+    }
+    100%{
+        transform:rotate(360deg);
+        }
+}
+
+.planet1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 20%;
+    display: block;
+    border-radius: 50%;
+    background: radial-gradient(circle at 100px 100px, blue, #000);
+}
+.planet2{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 10%;
+    display: block;
+    border-radius: 50%;
+    background: radial-gradient(circle at 100px 100px, green, #000);
+}
+.planet3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 40%;
+    display: block;
+    border-radius: 50%;
+    background: radial-gradient(circle at 100px 100px, purple, #000);
+}

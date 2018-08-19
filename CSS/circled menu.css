@@ -1,0 +1,131 @@
+.whole{
+    width:100%;
+    height:100%;
+    background: orange;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+    margin-top: 20%;
+    border-radius: 200px;
+    position: absolute;
+    border: 5px dashed black;
+    animation:moveBox 5s ease-out infinite;
+    animation-delay:5s;
+}
+
+@keyframes moveBox{
+    0%{
+        border-radius: 200px;
+        
+    }
+    50%{
+        background:black;
+        transform-radius:400px;
+        border-radius: 10px;
+        transform:rotate(360deg);   
+    }
+    100%{
+        border-radius: 800px;
+    }
+}
+.rightmenu{
+    width: 100px;
+    height: 200px;
+    background:silver;
+    margin-left:55%;
+    margin-top: 20%;
+    position: absolute;
+   /* border: 5px dashed black;*/
+    animation:moveMenuR 5s ease-out;
+    /*animation-delay:5s;*/
+}
+@keyframes moveMenuR{
+    0%{
+        margin-left:120%;
+    transform:rotate3d(0deg)
+    }
+    100%{
+        transform: rotate3d(360deg);
+        transform:rotate(360deg);
+        margin-left: 55%;
+        
+    }
+    /*100%{
+        margin-left:120%;
+        transform: rotate3d(0deg);
+    }*/
+}
+.leftmenu{
+    width: 100px;
+    height: 200px;
+    margin-left:30%;
+    margin-top: 20%;
+    background:yellow;
+    position: absolute;
+    animation:moveMenuL 5s ease-out;
+}
+@keyframes moveMenuL{
+    0%{
+        margin-left:-20%;
+    transform:rotate3d(0deg)
+    }
+    100%{
+        transform: rotate3d(360deg);
+        transform:rotate(360deg);
+        margin-left: 30%;
+    }
+    /*100%{
+        margin-left:-20%;
+        transform: rotate3d(0deg);
+    }*/
+}
+.bottommenu{
+    width: 200px;
+    height: 100px;
+    background:red;
+    margin-top:30%;
+    margin-left: 40%;
+    position: absolute;
+  /*  border: 5px dashed black;*/
+    animation:moveMenuB 5s ease-out;
+}
+@keyframes moveMenuB{
+    0%{
+        margin-top:100% ;
+    transform:rotate3d(0deg);
+    }
+    100%{
+        transform: rotate3d(360deg);
+        margin-top: 30%;
+    }
+    /*100%{
+        margin-top:80%;
+        transform: rotate3d(0deg);
+    }*/
+}
+.topmenu{
+    width: 200px;
+    height: 100px;
+    background:blue;
+    margin-top:10%;
+    margin-left: 40%;
+    position: absolute;
+  /*  border: 5px dashed black;*/
+    animation:moveMenuT 5s ease-out;
+}
+@keyframes moveMenuT{
+    0%{
+        margin-top:-20% ;
+    transform:rotate3d(0deg);
+    }
+    100%{
+        transform: rotate3d(360deg);
+        margin-top: 10%;
+    }
+    /*100%{
+        margin-top:10%;
+        transform: rotate3d(360deg);
+    }*/
+}
